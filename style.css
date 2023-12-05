@@ -1,0 +1,242 @@
+/* This is the updated style.css file for the website */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainbackground{
+    background-image: radial-gradient(red,black);
+    background-size: cover;
+
+}
+.container {
+    background-image: radial-gradient(red,black);
+   
+    min-width: 1200px;
+    margin: 0 ;
+}
+
+header {
+    /* background-color: #4e6ed8; */
+    color: #0c0101;
+    padding: 20px;
+}
+
+header h1 {
+    color: #f5d107;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header p {
+    color: #f5d107;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #f5d107;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d30c0c;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.intro {
+  
+    border-radius: 10px ;
+
+    padding: 20px;
+}
+
+.intro h2 {
+    color: #f0f0f0;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+
+.intro p {
+    color: #f0f0f0;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+}
+
+.services {
+    background-image: radial-gradient(red,black);
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.services h2 {
+    font-size: 30px;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.cards {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.card {
+    background-color: rgb(145, 38, 38);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.card p {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    
+    padding: 20px;
+}
+
+.gallery h2 {
+    color: #d30c0c;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+
+.gallery p {
+    color: #f55207;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about {
+    
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 35px;
+    color: #f55207;
+    font-family: Arial, sans-serif;
+}
+
+.about p {
+    color: aqua;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.member {
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.member:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.member h3 {
+    
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.member p {
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    /* background-color: #f0f0f0; */
+    color: #333;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
